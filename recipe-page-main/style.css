@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+h1,h2{
+    font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color:hsl(24, 5%, 18%) ;
+  }
+  li{
+    color:hsl(24, 5%, 18%) ;
+  }
+  h2,ul,ol{
+    color: hsl(14, 45%, 36%);
+  }
+  h{
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: 16;
+  font-weight: 700;
+  font-style: normal;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    background-color:hsl(30, 54%, 90%);
+    font-size: 14px;
+ }
+
+  .omelette{
+    position: relative;
+    margin: 46px;
+    width: 88%;
+    height: 85%;
+    border-radius: 25px;
+  
+  }
+ 
+  .container{
+    background-color:  hsl(0, 0%, 100%);
+  
+    position: absolute;
+    top: 13%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 30px;
+    
+
+  }
+  .text{
+    margin-left: 30px;
+    margin-right: 45px;
+    
+    padding: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: 16;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+    
+  }
+
+  .text1{
+    background-color: hsl(330, 100%, 98%);
+    padding: 15px;
+    line-height: 2;
+    margin-top: 30px;
+  }
+
+  p{
+    padding-top: 10px;
+    font-size: 16px;
+  }
+
+  .text2
+{
+    line-height: 1.7;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.nut-box{
+   
+    display: flex;
+    line-height: 1.7;
+    margin-top: 20px;
+}
+nav hr,nav-left hr{
+   margin-top: 10px;
+   width: 400px;
+   
+
+  
+}
+nav-left{
+    color:hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: 16;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 25px;
+}
+
+
+@media(max-width:425px) {
+   .container{
+    margin-top: -80px;
+    margin-left: -30px;
+    margin-right:-80px ;
+    padding: -150px;
+   }
+   .text{
+    font-size: larger;
+   }
+    
+    
+
+}
