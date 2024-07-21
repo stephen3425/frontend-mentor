@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(217, 54%, 11%);
+}
+
+.container{  
+    margin: 7%;
+    margin-top: 20%;
+    margin-bottom: 15%;
+    background-color:hsl(216, 50%, 16%) ;
+    padding-bottom: 15%;
+    border-radius: 10px;
+}
+h3{
+    padding-left: 8%;
+    font-weight: 800;
+    margin-top: -10px;
+    color: rgba(255, 255, 255, 0.935);
+    
+}
+.main-img{
+    width: 100%;
+    height: auto;
+    padding: 8%;
+    border-radius: 10%;
+}
+
+.prfl{
+    width:10%;
+    border-radius: 100%;
+    border: 1px solid white;
+    margin-right: 15px;
+    margin-left: -10px;
+
+}
+.text{
+    padding: 10px;
+    margin-left: 5%;
+    color:  hsl(215, 51%, 70%);
+}
+
+.content-bottom{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: -14px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.eth-i{
+    margin-right: 7px;
+
+}
+
+.content-bottom-left{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock{
+    margin-right: 7px;
+}
+
+.content-bottom-right{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+
+
+hr{
+    background-color: hsl(215, 21%, 50%); opacity: 0.2;
+    width: 87%;
+    margin-left: 7%;
+    height: 1px;
+    margin-top: -6px;
+    
+}
+
+.container-bottom{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10%;
+    margin-bottom: -30px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.l-row{
+    color:  hsl(215, 51%, 70%);
+    margin-right: 2px;
+}
+
+@media(min-width:1440px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        width: 25%;
+        margin-top: 8%;
+        height: 600px;   
+    }
+
+}
