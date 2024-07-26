@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+ 
+
+  
+</head>
+<body>
+  <div class="container"><!-- Rating state start -->
+    <div class="img-bg"><img src="images/icon-star.svg" alt="" class="img"></div>
+    
+
+
+    <h4>How did we do?</h4>
+  
+    <p>Please let us know how we did with your support request. All feedback is appreciated 
+      to help us improve our offering!</p>
+    <div class="rating">
+      <nav id="one" onclick="show(event)">1</nav> 
+      <nav id="one" onclick="show(event)">2</nav>
+      <nav id="one" onclick="show(event)">3</nav>
+      <nav id="one" onclick="show(event)">4</nav>
+      <nav id="one" onclick="show(event)">5</nav></div>
+    
+  
+    <input type="button" value="SUBMIT" class="btn" onclick="clik()"  >
+     <!-- Rating state end -->
+  </div>
+
+  
+
+   
+  <div class="container-1"  id="thqstate"><!-- Thank you state start -->
+    <img src="images/illustration-thank-you.svg" alt="" class="tq-img">
+
+     <p class="tq-rateing">You selected <span id="score"></span> out of 5</p>
+
+     <h4 class="tq">Thank you!</h4> 
+     <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+      don’t hesitate to get in touch!</p>
+
+      <!-- Thank you state end -->
+  </div>
+
+ 
+
+  
+  <script src="app.js"></script>
+</body>
+</html>
