@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.content{
+    margin-top: -15px;
+}
+.logo{
+   
+    height: 25px;
+    margin: 25px;
+}
+.hero{
+    width: 425px;
+    margin-left:-8px ;
+    background-image: url(images/hero-mobile.jpg);
+ 
+}
+.headingtop{
+    margin-bottom: -65px;
+    color: hsl(0, 36%, 70%) ;
+    font-weight: 300;
+}
+
+
+.heading{
+    color: hsl(0, 6%, 24%);
+    font-weight: 600;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 9px;
+}
+
+.text{
+    color:  hsl(0, 36%, 70%);
+    font-weight: 600;
+    text-align: center;
+    margin-top: -70px;
+    padding: 25px;
+}
+
+#mail{
+    border: 2px  hsl(0, 36%, 70%) solid;
+    opacity: 0.5;
+    height: 50px;
+    display: flex;
+  
+    padding-left: 25px;
+    border-radius: 50px;
+    margin: 25px;
+
+    
+}
+
+.ipbox{
+    width: 60%;
+    border: 0px;
+    outline: none;
+
+}
+.ipbox:active{
+    border: 0px;
+}
+button{
+  
+    width: 75px;
+    border-radius: 50px;
+    background-color: hsl(0, 36%, 70%) ;
+    border: 0;
+    align-items: center;
+}
+#errorimg{
+    width: 26px;
+    height: 26px;
+    position: relative;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    visibility: hidden;
+
+
+}
+
+.err{
+    margin-left: 55px;
+    margin-top: -18px;
+    color:  hsl(0, 93%, 68%);
+}
+
