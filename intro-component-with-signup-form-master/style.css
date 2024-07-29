@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%) ;
+    font-family: "Poppins", sans-serif;
+    /*font-weight: 400;
+    font-style: normal;
+    font-size: 17px;*/
+}
+
+.container{
+
+    
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content, .content1{
+    
+    height: 600px;
+    width: 50%;
+    
+}
+
+
+.content1{
+   font-size: 25px;
+   color: white;
+   padding: 50px;
+   padding-top: 150px;
+   margin-left: 40px;
+}
+
+.content1 p{
+    margin-top: 10px;
+    font-size: 19px;
+}
+
+form{
+    background-color: white;
+    height: 500px;
+    padding: 20px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 0 10px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.ipfield{
+    width: 95%;
+    height: 50px;
+    margin: 15px;
+    padding: 10px;
+    border: 1px black solid;
+    opacity: 0.5;
+    color: black;
+    border-radius: 5px;
+    border-color: hsl(249, 10%, 26%) ;
+}
+
+#submt{
+    color: white;
+    background-color:  hsl(154, 59%, 51%);
+    opacity: 1;
+    border: 0;
+    font-size: 20px;
+    font-weight: 100;
+    font-variant: small-caps;
+    z-index: 3;
+    width: 95%;
+    height: 50px;
+    margin: 15px;
+    
+}
+
+form p{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+a{
+    text-decoration: none
+    
+}
+.link{
+    color:  hsl(0, 100%, 74%) ;
+    font-weight: 700;
+}
+
+.content-top{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    width: 79%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: 0 10px 2px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.error{
+    text-align: end;
+    margin-right: 20px;
+    margin-top: -10px;
+    color: hsl(0, 100%, 74%) ;
+}
+.success{
+    text-align: end;
+    margin-right: 20px;
+    margin-top: -10px;
+    color: hsl(118, 100%, 74%) ;
+
+}
+.err {
+    background-image: url(images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 440px 10px;
+    border: 5px hsl(0, 100%, 74%)  solid;
+  
+}
+
+
+#submt:active{
+   opacity: 0.3;
+}
+
+@media(max-width:426px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        
+        width: 650px;
+        height: 1500px;
+
+    }
+
+    .content1{
+        text-align: center;
+       
+        width: 100%;
+        margin-top: -100px;
+    }
+    .content{
+       
+        width: 100%;
+        height: 900px;
+    }
+    .content-top{
+        width: 90%;
+        margin-left: 35px;
+        margin-top: -100px;
+       height: 150px;
+       padding: 40px;
+      
+       font-size: 30px;
+      
+    }
+
+    form{
+        height: 500px;
+        margin-left: 35px;
+        width: 90%;
+    }
+   
+    
+}
