@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+<body>
+  <div class="container-top">
+    <div class="rowtop">
+      <img src="assets/images/icon-success-check.svg" alt="">
+      <h4>Message Sent!</h4>
+    </div>
+   
+    <p class="ctop">Thanks for completing the form. We'll be in touch soon!</p>
+    
+   </div>
+  <form class="container">
+    <h1>Contact Us</h1>
+    <div class="content">
+      <div class="row">  
+        <div class="column">
+          <div class="column-half">
+            <label for="">First Name</label>
+            <input type="text" class="fname" id="fname">
+            <p class="errormsg"></p>
+          </div> 
+          <div class="column-half">
+            <label for=""> Last Name</label>
+            <input type="text" class="lname" id="lname">         
+            <p class="errormsg"></p>
+          </div>
+        </div>
+        
+      
+       
+      </div>
+      <div class="row">
+        <div class="mail" >
+          <label for=""  >Email Address</label>
+         <input type="text" class="email" id="email">
+       
+          
+         <p class="errormsg"></p>
+       
+        </div>
+        
+       
+      </div>
+      <div class="row">
+        <label for="">Query Type</label> 
+       <div class="columnhf">       
+        
+        <div class="gen"> 
+          <input type="radio" class="genradio">
+          General Enquiry
+        </div>
+        <div class="sup">
+          <input type="radio" class="supradio">
+          Support Request
+        </div>
+        </div>
+        <p class="errormsg"></p>
+      </div>
+      <div class="row">
+        <div class="message">
+          <label for=""> Message</label>
+        <textarea name="" rows="5" id="textbox" class="textbox"></textarea>
+
+       
+        <p class="errormsg"></p>
+        </div>
+        
+      </div>
+      <div class="row c-box"> 
+        
+         <input type="checkbox" class="checkbox">
+         I consent to being contacted by the team
+        <p class="errormsg"></p>
+      </div>
+      
+      <button type="submit" >Submit</button>
+    
+    </div>
+
+
+
+ 
+    
+   
+  </form>
+
+ 
+</body>
+</html>

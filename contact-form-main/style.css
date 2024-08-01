@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  background-color:  hsl(148, 38%, 91%);
+  
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    width: 50%;
+    height: fit-content;
+    margin-left: 25%;
+    padding: 30px;
+    
+}
+input, textarea,.gen , .sup{
+    border: 1px hsla(169, 82%, 27%, 0.394) solid;
+    outline: hsl(169, 82%, 27%) ;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+.row{
+
+  
+    height: 100px;
+    margin-top: 5px;
+   
+   
+}
+.column{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.column-half {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+
+button{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    background-color: hsl(169, 82%, 27%);
+    color: white;
+    font-weight: 700;
+    border: 0;
+}
+
+
+
+.mail,.message{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.c-box{
+    padding-top: 30px;
+}
+
+.fname, .lname {
+    width: 95%;
+    height: 40px;
+    
+    background-color: white;
+    margin-top: 5px;
+    
+}
+
+.columnhf{
+    
+    display: flex;
+    height: 45px;
+    justify-content: space-between;
+    margin-top: 5px;
+    
+}
+
+.gen,.sup{
+    
+    width: 48%;
+    padding-left: 10px;
+    padding-top: 5px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+.radio{
+    margin-right: 10px;
+}
+
+.email{
+    margin-right: 10px;
+    height: 40px;
+    margin-top: 5px;
+   
+}
+
+.errormsg{
+    margin-top: 5px;
+    color: hsl(0, 66%, 54%);
+    
+    
+}
+.textbox{
+    width: 99%;
+}
+
+
+.container-top{
+    width: 26%;
+    height: 100px;
+    margin-left: 540px;
+    padding: 20px;
+    border: 2px gray solid;
+    margin-top: 4%;
+    background-color: hsl(187, 24%, 22%) ;
+    color: white;
+    font-weight: 400;
+    border-radius: 15px;
+    visibility: hidden;
+}
+h4{
+    margin-left: 10px;
+}
+.rowtop{
+    display: flex;
+}
+.ctop{
+    border: 0;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+
+.error{
+    border: 1px hsl(0, 66%, 54%) solid;
+}
+
+.success{
+    border: 2px  hsl(147, 100%, 50%) solid;
+}
+
+@media(max-width:425px){
+    body{
+        font-size: 25px;
+    }
+   .container{
+    width: 600px;
+    margin-left: 30px;
+    height: 1400px;
+   }
+   .content{
+    
+    height: 1300px;
+   }
+   .row{
+    height: 100px;
+    margin-bottom: 80px;
+   }
+   .column, .columnhf{
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .column-half{
+    width: 100%;
+    
+   }
+   .gen,.sup{
+    margin-bottom: 30px;
+    width: 100%;
+    
+   
+    
+   }
+   .fname,.lname,.email{
+    height: 50px;
+   }
+   .textbox{ 
+    height: 250px;
+
+   }
+   .c-box{
+  
+    margin-top: 200px;
+    margin-bottom: -1px;
+    
+   }
+   .container-top{
+  
+   
+    width: 400px;
+    margin-left: 125px;
+   }
+
+
+}
