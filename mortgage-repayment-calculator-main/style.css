@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color:hsl(202, 86%, 94%) ;
+    color: hsl(200, 26%, 54%);
+}
+
+
+.container{
+    background-color: white;
+   
+   margin-top: 80px;
+   margin-left: 80px;
+   width: 1000px;
+   height: 550px;
+   display: flex;
+   border-radius: 20px;
+
+}
+
+section{
+  
+    width: 50%;
+    z-index: 1;
+    background-color: white;
+    border-radius: 20px;
+   
+}
+.result{
+    background-color: hsl(202, 55%, 16%);
+    border-radius: 10px 20px 20px 70px ;
+
+}
+
+
+
+
+
+
+
+.final{
+    position: absolute;
+   
+    width: 520px;
+    margin-left: 517px;
+    z-index: 0;
+    
+    height: 550px;
+}
+ header{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    
+ }
+.left h1{
+    color: hsl(202, 55%, 16%);
+
+} 
+
+.row{
+    
+    height: 80px;
+    margin: 25px;
+    margin-top: -5px;
+}
+.mtypes{
+    height: 130px;
+
+}
+
+.inputfld{
+    border: 2px hsl(200, 26%, 54%) solid;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    text-align: center;
+    background-color:hsl(202, 86%, 94%);
+    color: hsl(200, 26%, 54%);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.tandr
+{
+    justify-content: space-between;
+    display: flex;
+    
+}
+.amt{
+    height: 40px;
+    width: 92%;
+    
+
+}
+
+.term, .rate{
+    width: 48%;
+
+
+    
+}
+h5{
+    font-size: 16px;
+    
+}
+input{
+    border: 0;
+}
+.ipfld{
+    border: 2px  hsl(200, 26%, 54%) solid;
+    margin-top: 10px;
+    display: flex;
+    height: 40px;
+    background-color: hsl(202, 86%, 94%);
+    
+}
+
+.checkbx{
+    height: 40px;
+    margin-top: 20px;
+    border: 2px  hsl(200, 26%, 54%) solid;
+    display: flex;
+    padding: 15px;
+}
+
+h4{
+    margin-left: 15px;
+    margin-top: -10px;
+    color:  hsl(202, 55%, 16%);
+    
+}
+
+.radio{
+    margin-top: -10px;
+    height: 20px;
+}
+
+.calculate{
+    display: flex;
+    background-color:  hsl(61, 70%, 52%);
+    width: 60%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 50px;
+    margin-top: 60px;
+    border: 0;
+    
+}
+.cent{
+    text-align: center;
+    justify-content: center;
+}
+
+.calc{
+   margin-top: 5px;
+    margin-left: 20px;
+    color:  hsl(202, 55%, 16%);
+}
+
+
+.content{
+    text-align: center;
+   
+    margin-top: 18%;
+    padding: 25px;
+}
+.content h1{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.fresult{
+    border: 3px hsl(202, 55%, 16%) solid;
+    height: 400px;
+    width: 90%;
+    margin-left: 30px;
+    padding: 15px;
+   
+}
+p{
+    font-weight: 500;
+}
+
+.fresult h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.calcutaion{
+   
+    height: 75%;
+    border-top: 3px hsl(61, 70%, 52%) solid;
+    margin-top: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: hsl(202, 80%, 11%);
+}
+.top{
+    
+    height: 60%;
+}
+hr{
+    opacity: 0.3;
+    margin-top: -10px;
+    
+}
+
+.top h1{
+    font-size: 60px;
+    color: hsl(61, 70%, 52%);
+}
+.bottom{
+    
+    height: 40%;
+    margin-top: 30px;
+}
+
+.bottom h3{
+    margin-top: 10px;
+    font-size:30px ;
+    color: white;
+}
+
+.selected{
+    border: 1px hsl(61, 25%, 45%) solid;
+    background-color: hsla(61, 100%, 84%, 0.449);
+}
