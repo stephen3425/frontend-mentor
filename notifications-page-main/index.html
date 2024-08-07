@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+  
+  <title>Frontend Mentor | Notifications page</title>
+
+  
+</head>
+<body>   
+    <main>
+      <nav-bar>
+        <nav class="left"> <h1>Notifications     <span class="number" id="numb">3</span> </h1> </nav>
+        <nav class="right" onclick="clr()">Mark all as read</nav>        
+      </nav-bar>
+      <div id="notification" >
+        <section class="unread" id="s1"  onclick="nclk(event)"> 
+          <div class="content u-read">
+            <img src="assets/images/avatar-mark-webber.webp" class="image" alt="">
+            <p class="comment"><b>Mark Webber </b>reacted to your recent post <span class="bold">My first tournament today! <span class="reddot"></span><br> </span> 1m ago </p></div>
+            <div class="circle" id="circle1"></div>
+        </section>
+        <section class="unread" id="s2" onclick="nclk(event)">
+          
+          <div class="content u-read">
+            <img src="assets/images/avatar-angela-gray.webp" class="image" alt="">
+            <p class="comment"><b>Angela Gray </b>followed you  <span class="reddot"></span><br>5m ago</p>
+          </div>
+          <div class="circle" id="circle2"></div>
+        </section>
+        <section class="unread" id="s3" onclick="nclk(event)">
+          <div class="content u-read">
+            <img src="assets/images/avatar-jacob-thompson.webp" class="image" alt="">
+            <p class="comment"><b> Jacob Thompson</b> has joined your group <a href="">Chess Club</a>  <br>1 days ago</p></div>
+            <div class="circle" id="circle3"></div>
+          
+        </section>
+        <section class="no5">
+          <div class="content">
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" class="image" alt="">
+            <p class="comment"><b>Rizky Hasanuddin</b> sent you a private message <br> 5 days ago<br>
+             
+            </p>
+          
+          </div>
+          <summary>
+            Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+            I'm already having lots of fun and improving my game.
+           </summary>
+          
+          
+        
+        </section>
+        <section>
+          <div class="content">
+            <img src="assets/images/avatar-kimberly-smith.webp" class="image" alt="">
+            <p class="comment"><b>Kimberly Smith</b>commented on your picture <br> weeks ago</p>
+            <img src="assets/images/image-chess.webp" class="image c6" alt="">
+          </div>
+          
+        </section>
+        <section>
+          <div class="content">
+            <img src="assets/images/avatar-nathan-peterson.webp" class="image" alt="">
+            <p class="comment"><b> Nathan Peterson</b>  reacted to your recent post <span class="bold">5 end-game strategies to increase your win rate</span> <br>2 weeks ago</p></div>
+          
+        </section>
+        <section>
+          <div class="content">
+            <img src="assets/images/avatar-anna-kim.webp" class="image" alt="">
+            <p class="comment"> <b>Anna Kim</b> left the group <a href=""> Chess Club</a><br>2 weeks ago</p></div>
+         
+  
+        </section>
+      </div>
+      
+      
+    
+      
+    
+      
+    
+      
+       
+    
+    
+       
+    </main>
+
+   
+  
+   
+  
+
+ 
+ 
+</body>
+</html>
